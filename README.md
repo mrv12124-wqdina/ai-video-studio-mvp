@@ -1,8 +1,16 @@
 # AI Video Studio MVP
 
-一个可本地运行的 AI 视频生成工作台，支持提示词、画幅比例、时长、任务队列和进度展示。
+一个用于体验视频创作界面的项目，包含 Next.js 网页版和无需安装依赖的单文件体验版。
 
-## 快速开始
+## 最简单：直接打开单文件版
+
+1. 打开仓库中的 [`ai-video-studio.html`](./ai-video-studio.html)。
+2. 点击右上方的 **Download raw file** 下载到 Windows 电脑（也可点 Raw 后按 `Ctrl+S` 保存）。
+3. 在下载文件上双击，用 Edge 或 Chrome 打开即可，无需安装 Git、Node.js 或 npm。
+
+单文件版可以创建演示任务、查看模拟进度并播放示例视频。**它目前不会真正生成 AI 视频**；实际生成需要连接视频生成服务和配置 API 凭据。示例视频播放需要联网。
+
+## 开发者运行网页版
 
 ```bash
 npm install
@@ -11,24 +19,4 @@ npm run dev
 
 打开 <http://localhost:3000>。
 
-## 当前版本说明
-
-这是完整可运行的 Web MVP：
-
-- 提交生成任务
-- 排队和实时进度
-- 完成后预览示例视频
-- 支持横屏、竖屏和正方形比例
-- 支持单次提交和批量重复提交
-
-## 接入真实 AI 视频模型
-
-当前 API 使用演示进度和演示视频。在生产环境中，可在 `app/api/jobs/route.ts` 的 `processJob` 函数中接入：
-
-- OpenAI Sora 或兼容 API
-- Runway
-- Google Veo
-- Minimax / Kling
-- 自建 ComfyUI/Stable Video Diffusion 服务
-
-接入时建议添加持久化队列（Redis、Postgres、BullMQ），对象存储（S3、R2）和视频合成工作节点。
+当前网页版同样使用演示进度和示例视频。接入真实模型前，需要配置模型服务、服务端 API 凭据、任务队列和视频存储；不要把 API 密钥放进 HTML 文件。
