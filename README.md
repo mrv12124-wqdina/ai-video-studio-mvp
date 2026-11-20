@@ -1,55 +1,26 @@
-# 小说短片生产工作台
+# 小说短片工作台
 
-这个仓库提供小说自动改编、分集、分镜、人物档案、素材检索、配音和导出的生产型架构。浏览器工具可直接使用；真实云端画面生成、配音及素材检索需要你自己的账户和 API 密钥。
+## 本机 ComfyUI（新）
 
-## 立即使用：无需安装的小说工作台
+访问 `http://localhost:3000/comfy` 使用本机 ComfyUI。应用服务器与 ComfyUI 必须在同一台电脑运行；ComfyUI 默认地址是 `http://127.0.0.1:8188`。可通过本机 `.env.local` 的 `COMFYUI_URL` 设置另一个 loopback 端口。应用只允许 localhost/127.0.0.1/::1，拒绝公网地址，避免将本机生成服务暴露给任意网络请求。
 
-打开 [`novel-video-studio.html`](./novel-video-studio.html)，点击 **Download raw file**，保存后双击打开。
+1. 启动标准 ComfyUI，保持终端运行；先在浏览器打开 `http://127.0.0.1:8188` 确认可访问。
+2. 在项目目录运行 `npm install`、`npm run dev`，访问 `http://localhost:3000/comfy`。
+3. 在 ComfyUI 中将工作流导出为 **Save (API Format)** JSON。导入该 JSON 到本页。
+4. 在工作流文本编码节点内，把正向提示词替换为 `{{PROMPT}}`，负向提示词设为 `{{NEGATIVE_PROMPT}}`，采样种子可用 `{{SEED}}`。
+5. 提交生成。生成图像可在页面查看；工作流需要对应模型和自定义节点已安装。
 
-它可以：
+“载入示例图片工作流”只是用于验证连接与图片生成，不是视频生成；请把 `YOUR_MODEL.safetensors` 改为你已下载的 checkpoint 名称。生成视频需要导入适用于你已安装的视频模型的 ComfyUI API 工作流。不同节点包/模型的工作流结构不同，应用不会假装自动安装模型或节点。
 
-- 导入完整小说并按章节、集数和镜头字数拆分
-- 自动识别常见人物并生成角色档案
-- 为抖音、外网、方形画幅生成分镜字幕画面
-- 播放浏览器中文朗读或上传配乐
-- 导出当前分集 WebM 和完整剧本 JSON
-- 在浏览器中持续编辑和保存项目数据
+**安全：**不要将 ComfyUI 端口映射到公网，不要在防火墙开放给互联网。本代理只允许连接回环地址。模型应从官方或授权来源下载，并遵守其许可证。4060 8GB 可运行部分量化/低分辨率工作流，但速度、可用分辨率和时长依模型而异，无法保证电影级成片。
 
-## 云端生产模式
+## 原型与云端服务
 
-复制 `.env.example` 为 `.env.local`，只在部署平台或本机开发环境中填写密钥：
+仓库中的 `novel-video-studio.html` 是纯浏览器分镜原型。它不提供真实生成式影像。云端路由如 `app/api/video`、`app/api/voice`、`app/api/materials` 需配置相应自有服务密钥；本地 ComfyUI 生图不需要这些 API 密钥。
 
-- `VIDEO_API_URL`：兼容的图片/视频生成服务端点
-- `VIDEO_API_KEY`：视频生成密钥
-- `PEXELS_API_KEY`：素材搜索密钥（可选）
-- `ELEVENLABS_API_KEY` 和 `ELEVENLABS_VOICE_ID`：自然配音（可选）
-- `PUBLIC_VIDEO_BASE_URL`：成片存储地址（可选）
-
-密钥只允许放在服务端环境变量，不要放进 HTML、GitHub 或聊天内容。
-
-接入的服务器路由：
-
-- `POST /api/project`：小说拆章、分镜、人物识别
-- `POST /api/video`：安全代理视频生成请求
-- `GET /api/materials?q=关键词&type=videos`：搜索 Pexels 合法素材
-- `POST /api/voice`：生成旁白音频
-- `GET /api/project`：检查哪些云端能力已配置
-
-### 开发者版
-
-需要 Node.js 和 npm：
+开发环境：Node.js 和 npm。
 
 ```bash
 npm install
 npm run dev
 ```
-
-打开 `http://localhost:3000`。
-
-## 发布前注意事项
-
-- 只使用拥有改编权、配音权和素材授权的小说与素材。
-- 配乐、人物形象和字体也应确认商业使用授权。
-- 发布前检查平台关于 AI 标识、虚构人物、广告与隐私的规则。
-- 人物一致性应采用参考图、角色 LoRA 或角色一致性模型，而不是依赖随机提示词。
-- 导出成片前应进行人工字幕校对、敏感内容审查和画面连续性检查。
