@@ -76,7 +76,7 @@ export default function FilmPage() {
   }
 
   return <main className="film-app">
-    <header className="film-header"><div className="film-brand">◈ 小说成片工坊</div><div className="film-subtitle">小说 → ComfyUI 镜头 → 自动合成视频与字幕</div><div className="film-badge">本机生成 · 不上传小说</div></header>
+    <header className="film-header"><div className="film-brand">◈ 小说成片工坊</div><div className="film-subtitle">小说 → ComfyUI 镜头 → 自动合成视频与字幕</div><div className="film-badge">本机生成 · 不上传小说</div><a href="/film/prologue" style={{ color: "#b8aaff", marginLeft: "auto" }}>进入序言导演模式 →</a></header>
     <div className="film-layout">
       <section className="film-editor">
         <div className="film-section-head"><span>01</span><div><h1>输入小说</h1><p>自动拆章节和镜头；本地 ComfyUI 逐镜生成，再自动合成一部视频。</p></div></div>
