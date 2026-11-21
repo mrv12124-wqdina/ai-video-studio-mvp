@@ -79,7 +79,8 @@ function apiGraph(entry: HistoryEntry): Record<string, any> | null {
 }
 
 function isVideoWorkflowGraph(graph: Record<string, any>): boolean {
-  return Object.values<any>(graph).some((node) => /(video|vhs|animatedwebp|animatedpng|gif)/i.test(String(node.class_type || '')));
+  const videoOutputNode = /(savevideo|videocombine|vhs_videocombine|saveanimatedwebp|saveanimatedpng|animatedwebp|animatedpng)/i;
+  return Object.values<any>(graph).some((node) => videoOutputNode.test(String(node.class_type || '')));
 }
 
 async function findVideoWorkflow(base: string): Promise<Record<string, any>> {
@@ -421,7 +422,9 @@ export async function POST(request: NextRequest) {
     job.message = message;
   });
   return NextResponse.json(job, { status: 202 });
-}export async function GET(request: NextRequest) {
+}
+
+export async function GET(request: NextRequest) {
   const id = request.nextUrl.searchParams.get('id');
   const job = id ? jobs.get(id) : null;
   return job ? NextResponse.json(job) : NextResponse.json({ error: '找不到该制作任务。' }, { status: 404 });
