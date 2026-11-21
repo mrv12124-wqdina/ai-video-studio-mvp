@@ -33,7 +33,7 @@ export default function PrologueDirectorPage() {
     setShots((current) => current.map((shot, i) => i === index ? { ...shot, ...patch } : shot));
   }
 
-  async function start() {
+  async function start(onlyFirstShot = false) {
     setBusy(true); setError(''); setJob(null);
     try {
       let graph: unknown = undefined;
@@ -47,7 +47,7 @@ export default function PrologueDirectorPage() {
           title: PROLOGUE_TITLE,
           style,
           negativePrompt: negative,
-          shots: shots.map((shot) => ({ id: shot.id, title: shot.title, chapter: shot.chapter, text: shot.prompt, seconds: shot.seconds, transition: shot.transition, dialogue: shot.dialogue })),
+          shots: (onlyFirstShot ? shots.slice(0, 1) : shots).map((shot) => ({ id: shot.id, title: shot.title, chapter: shot.chapter, text: shot.prompt, seconds: shot.seconds, transition: shot.transition, dialogue: shot.dialogue })),
           ...(graph ? { workflow: graph } : {})
         })
       });
@@ -79,7 +79,7 @@ export default function PrologueDirectorPage() {
 
     <section className="director-toolbar">
       <div><b>{shots.length} 个镜头</b><span>{Math.round(totalSeconds / 60 * 10) / 10} 分钟目标时长</span><span>16:9 · 2D cinematic anime</span></div>
-      <button className="director-start" disabled={busy || !connection.connected} onClick={start}>{busy ? '正在制作…' : '提交全部镜头到 ComfyUI'}</button>
+      <div className="director-start-actions"><button className="director-test" disabled={busy || !connection.connected} onClick={() => start(true)}>{busy ? '正在制作…' : '只生成 P01 测试镜头'}</button><button className="director-start" disabled={busy || !connection.connected} onClick={() => start(false)}>{busy ? '正在制作…' : '提交全部 25 个镜头'}</button></div>
     </section>
 
     {error && <section className="director-error">{error}</section>}
