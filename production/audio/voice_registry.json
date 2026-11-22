@@ -1,0 +1,264 @@
+{
+  "registry_version": "1.0.0",
+  "policy": "One permanent voice identity per character ID. Delivery can vary by emotion; base identity cannot drift.",
+  "provider_policy": "Prefer verified local ComfyUI audio/TTS models if already installed. Otherwise use a licensed configured TTS provider. Do not invent provider IDs or claim audio exists before rendering.",
+  "status": "voice_design_locked_audition_assets_pending",
+  "characters": [
+    {
+      "character_id": "FZ-01",
+      "name": "方自在",
+      "canon": "少年，外貌极俊秀，五官细腻，外表显柔弱但实际强韧，快乐、幽默、保护妹妹。原文称其外貌看起来约十七八岁。",
+      "voice": {
+        "voice_asset_id": null,
+        "provider_voice_id": null,
+        "gender_presentation": "male",
+        "age_impression": "late teens",
+        "register": "mid, slightly warm lower-mid",
+        "timbre": "clear, natural, lightly resonant; not artificially deep",
+        "pace": "medium-fast in casual conversation; measured under threat",
+        "delivery": "playful and relaxed; warm and protective with his sister; calm, clipped and controlled in danger",
+        "status": "awaiting audition"
+      }
+    },
+    {
+      "character_id": "FTH-01",
+      "name": "方天豪",
+      "canon": "约六十岁，青云方家家主，威猛、强势，对孙子有深厚亲情。",
+      "voice": {
+        "voice_asset_id": null,
+        "provider_voice_id": null,
+        "gender_presentation": "male",
+        "age_impression": "around 60",
+        "register": "low",
+        "timbre": "deep, weighty, mature, slight natural rasp",
+        "pace": "measured and authoritative; breaks with breath and pauses in grief",
+        "delivery": "commanding when angry; gentle with grandson's photograph; emotionally fragile when exhausted",
+        "status": "awaiting audition"
+      }
+    },
+    {
+      "character_id": "FZR-01",
+      "name": "方自然",
+      "canon": "方自在的妹妹，依赖并信任哥哥，感情细腻；原文描写声音柔和甜美。",
+      "voice": {
+        "voice_asset_id": null,
+        "provider_voice_id": null,
+        "gender_presentation": "female",
+        "age_impression": "young adult",
+        "register": "mid-high",
+        "timbre": "clear, soft, sweet but not childish",
+        "pace": "medium",
+        "delivery": "warm and trusting with brother; playful when teasing; restrained sobbing when distressed",
+        "status": "awaiting audition"
+      }
+    },
+    {
+      "character_id": "QX-01",
+      "name": "秦心",
+      "canon": "约二十三四岁，女性警察，英姿飒爽、正直、果断；说话清晰。",
+      "voice": {
+        "voice_asset_id": null,
+        "provider_voice_id": null,
+        "gender_presentation": "female",
+        "age_impression": "early-mid 20s",
+        "register": "mid",
+        "timbre": "clear, focused, confident",
+        "pace": "brisk and precise in professional mode; warmer in private",
+        "delivery": "direct and disciplined at work; slight hesitation when emotionally unsettled",
+        "status": "awaiting audition"
+      }
+    },
+    {
+      "character_id": "GX-01",
+      "name": "顾晓",
+      "canon": "大学女生，外表高傲、爱面子，内心敏感且渴望被理解；外貌和发型有明确识别特征。",
+      "voice": {
+        "voice_asset_id": null,
+        "provider_voice_id": null,
+        "gender_presentation": "female",
+        "age_impression": "college-age adult",
+        "register": "mid-high",
+        "timbre": "bright, crisp, slightly cool",
+        "pace": "medium; quicker when defensive",
+        "delivery": "self-assured and teasing; vulnerability softens volume and creates hesitation",
+        "status": "awaiting audition"
+      }
+    },
+    {
+      "character_id": "HFF-01",
+      "name": "华凤凤",
+      "canon": "性格坚强、直率，面部有明显斜向伤疤，是重要视觉识别特征。",
+      "voice": {
+        "voice_asset_id": null,
+        "provider_voice_id": null,
+        "gender_presentation": "female",
+        "age_impression": "adult",
+        "register": "mid-low",
+        "timbre": "clear, grounded, slightly husky only when emotionally strained",
+        "pace": "measured",
+        "delivery": "direct and guarded; pauses rather than melodramatic crying when recalling trauma",
+        "status": "awaiting audition"
+      }
+    },
+    {
+      "character_id": "ZXW-01",
+      "name": "赵欣婉",
+      "canon": "银丰公司管理者，受过女子特警训练，豪爽、能干、直率。",
+      "voice": {
+        "voice_asset_id": null,
+        "provider_voice_id": null,
+        "gender_presentation": "female",
+        "age_impression": "adult",
+        "register": "mid",
+        "timbre": "bright, confident, mature",
+        "pace": "medium-fast",
+        "delivery": "decisive and energetic at work; candid and teasing with friends; visibly concerned when danger strikes",
+        "status": "awaiting audition"
+      }
+    },
+    {
+      "character_id": "LRM-01",
+      "name": "柳如眉",
+      "canon": "纤美美容沙龙老板，知性、优雅、温柔且有立场。",
+      "voice": {
+        "voice_asset_id": null,
+        "provider_voice_id": null,
+        "gender_presentation": "female",
+        "age_impression": "adult",
+        "register": "mid-low to mid",
+        "timbre": "smooth, composed, warm",
+        "pace": "measured, graceful",
+        "delivery": "polite and calm; firmness is conveyed through precision rather than volume",
+        "status": "awaiting audition"
+      }
+    },
+    {
+      "character_id": "TY-01",
+      "name": "唐雅",
+      "canon": "鑫源负责人，强势、果断、冷静，有管理能力。",
+      "voice": {
+        "voice_asset_id": null,
+        "provider_voice_id": null,
+        "gender_presentation": "female",
+        "age_impression": "adult",
+        "register": "mid-low",
+        "timbre": "cool, clear, controlled",
+        "pace": "measured, concise",
+        "delivery": "short direct phrases; rarely raises volume; warmer only with trusted friends",
+        "status": "awaiting audition"
+      }
+    },
+    {
+      "character_id": "LH-01",
+      "name": "林火",
+      "canon": "活泼、直率、火爆，喜欢绘画，表达直接。",
+      "voice": {
+        "voice_asset_id": null,
+        "provider_voice_id": null,
+        "gender_presentation": "female",
+        "age_impression": "young adult",
+        "register": "mid-high",
+        "timbre": "bright, lively",
+        "pace": "fast",
+        "delivery": "expressive and energetic; softens when apologizing",
+        "status": "awaiting audition"
+      }
+    },
+    {
+      "character_id": "CJ-01",
+      "name": "丛静",
+      "canon": "腼腆、温柔、理智、细心，擅长电脑图像处理。",
+      "voice": {
+        "voice_asset_id": null,
+        "provider_voice_id": null,
+        "gender_presentation": "female",
+        "age_impression": "young adult",
+        "register": "mid-high",
+        "timbre": "soft, gentle, light",
+        "pace": "slow-medium",
+        "delivery": "quiet and thoughtful; slight hesitation without sounding weak",
+        "status": "awaiting audition"
+      }
+    },
+    {
+      "character_id": "OYSY-01",
+      "name": "欧阳诗雅",
+      "canon": "校园女生，活泼、外向、善于调侃，有模特经历。",
+      "voice": {
+        "voice_asset_id": null,
+        "provider_voice_id": null,
+        "gender_presentation": "female",
+        "age_impression": "college-age adult",
+        "register": "mid-high",
+        "timbre": "bright, expressive",
+        "pace": "medium-fast",
+        "delivery": "playful, sociable, teasing; brief shy drop in volume when embarrassed",
+        "status": "awaiting audition"
+      }
+    },
+    {
+      "character_id": "GLT-01",
+      "name": "顾老头",
+      "canon": "方自在的武术师父，武痴、脾气古怪、爱吹牛，实力深厚。",
+      "voice": {
+        "voice_asset_id": null,
+        "provider_voice_id": null,
+        "gender_presentation": "male",
+        "age_impression": "elderly",
+        "register": "mid-low",
+        "timbre": "rough, weathered, lively",
+        "pace": "fast when excited; deliberate when serious",
+        "delivery": "comic bluster with genuine authority beneath it",
+        "status": "awaiting audition"
+      }
+    },
+    {
+      "character_id": "TIAN-01",
+      "name": "天（实验体）",
+      "canon": "特殊实验体，语言能力受损，主要出现断续发声和重复词语。",
+      "voice": {
+        "voice_asset_id": null,
+        "provider_voice_id": null,
+        "gender_presentation": "female",
+        "age_impression": "adult",
+        "register": "variable/fragmented",
+        "timbre": "strained, breath-led, distressed",
+        "pace": "broken syllables and pauses",
+        "delivery": "nonverbal breathing, cries and source-supported fragmented words only; no invented fluent dialogue",
+        "status": "nonverbal/fragmented performance design"
+      }
+    },
+    {
+      "character_id": "TK-01",
+      "name": "泰克",
+      "canon": "体格巨大、战斗经验丰富、情绪和自尊心强；原文显示其能听懂普通话但不擅长说普通话。",
+      "voice": {
+        "voice_asset_id": null,
+        "provider_voice_id": null,
+        "gender_presentation": "male",
+        "age_impression": "adult",
+        "register": "very low",
+        "timbre": "heavy, rough, resonant",
+        "pace": "short forceful phrases; mostly source-supported vocalizations",
+        "delivery": "restrained menace, frustrated growls, brief source-supported English exclamation",
+        "status": "awaiting audition"
+      }
+    },
+    {
+      "character_id": "JM-01",
+      "name": "詹姆斯",
+      "canon": "泰克之外籍保镖角色，原文提供的声音和性格信息有限。",
+      "voice": {
+        "voice_asset_id": null,
+        "provider_voice_id": null,
+        "gender_presentation": "male",
+        "age_impression": "adult",
+        "register": "mid-low",
+        "timbre": "grounded, restrained",
+        "pace": "concise",
+        "delivery": "professional and observant; do not over-specify until source dialogue provides evidence",
+        "status": "provisional"
+      }
+    }
+  ]
+}
