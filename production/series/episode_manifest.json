@@ -1,0 +1,687 @@
+{
+  "series_title": "我身边的极品美女们",
+  "manifest_version": "1.0.0",
+  "source_file": "我身边的极品美女们.txt",
+  "source_sha256": "5a37d29c6695966ebf6a7a1af6be901685a08c6770d4196c0726504a6f2bf5af",
+  "source_total_characters": 191092,
+  "source_total_lines": 4607,
+  "adaptation_rule": "One source chapter equals one episode. Prologue/序言 is EP00. Never merge or split source chapters.",
+  "current_episode_count": 67,
+  "present_chapter_count": 66,
+  "missing_chapter_numbers": [
+    59
+  ],
+  "expected_episode_count_after_source_repair": 68,
+  "episodes": [
+    {
+      "episode_id": "EP00",
+      "episode_order": 0,
+      "source_section": "序言",
+      "chapter_number": 0,
+      "source_start_line": 1,
+      "source_end_line": 42,
+      "source_char_count": 1642,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP01",
+      "episode_order": 1,
+      "source_section": "第一章 猛龙入世",
+      "chapter_number": 1,
+      "source_start_line": 43,
+      "source_end_line": 146,
+      "source_char_count": 4129,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP02",
+      "episode_order": 2,
+      "source_section": "第二章 警花解围",
+      "chapter_number": 2,
+      "source_start_line": 147,
+      "source_end_line": 224,
+      "source_char_count": 3500,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP03",
+      "episode_order": 3,
+      "source_section": "第三章 碰撞风波",
+      "chapter_number": 3,
+      "source_start_line": 225,
+      "source_end_line": 326,
+      "source_char_count": 3500,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP04",
+      "episode_order": 4,
+      "source_section": "第四章 兄妹相见",
+      "chapter_number": 4,
+      "source_start_line": 327,
+      "source_end_line": 398,
+      "source_char_count": 2791,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP05",
+      "episode_order": 5,
+      "source_section": "第五章 往日恩怨",
+      "chapter_number": 5,
+      "source_start_line": 399,
+      "source_end_line": 470,
+      "source_char_count": 2943,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP06",
+      "episode_order": 6,
+      "source_section": "第六章 食堂风波",
+      "chapter_number": 6,
+      "source_start_line": 471,
+      "source_end_line": 548,
+      "source_char_count": 3213,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP07",
+      "episode_order": 7,
+      "source_section": "第七章 入住",
+      "chapter_number": 7,
+      "source_start_line": 549,
+      "source_end_line": 596,
+      "source_char_count": 1640,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP08",
+      "episode_order": 8,
+      "source_section": "第八章 应聘始末",
+      "chapter_number": 8,
+      "source_start_line": 597,
+      "source_end_line": 690,
+      "source_char_count": 3884,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP09",
+      "episode_order": 9,
+      "source_section": "第九章 上岗周折",
+      "chapter_number": 9,
+      "source_start_line": 691,
+      "source_end_line": 784,
+      "source_char_count": 3267,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP10",
+      "episode_order": 10,
+      "source_section": "第十章 陪美女兜风",
+      "chapter_number": 10,
+      "source_start_line": 785,
+      "source_end_line": 872,
+      "source_char_count": 3450,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP11",
+      "episode_order": 11,
+      "source_section": "第十一章 自在的心愿",
+      "chapter_number": 11,
+      "source_start_line": 873,
+      "source_end_line": 960,
+      "source_char_count": 3488,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP12",
+      "episode_order": 12,
+      "source_section": "第十二章 美女上司",
+      "chapter_number": 12,
+      "source_start_line": 961,
+      "source_end_line": 1014,
+      "source_char_count": 2841,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP13",
+      "episode_order": 13,
+      "source_section": "第十三章 无意间的得罪",
+      "chapter_number": 13,
+      "source_start_line": 1015,
+      "source_end_line": 1056,
+      "source_char_count": 2162,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP14",
+      "episode_order": 14,
+      "source_section": "第十四章 报道事宜",
+      "chapter_number": 14,
+      "source_start_line": 1057,
+      "source_end_line": 1152,
+      "source_char_count": 4468,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP15",
+      "episode_order": 15,
+      "source_section": "第十五章 冷板凳",
+      "chapter_number": 15,
+      "source_start_line": 1153,
+      "source_end_line": 1266,
+      "source_char_count": 4267,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP16",
+      "episode_order": 16,
+      "source_section": "第十六章 国色无双",
+      "chapter_number": 16,
+      "source_start_line": 1267,
+      "source_end_line": 1338,
+      "source_char_count": 2971,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP17",
+      "episode_order": 17,
+      "source_section": "第十七章 第一件任务",
+      "chapter_number": 17,
+      "source_start_line": 1339,
+      "source_end_line": 1386,
+      "source_char_count": 2061,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP18",
+      "episode_order": 18,
+      "source_section": "第十八章 翩翩公子",
+      "chapter_number": 18,
+      "source_start_line": 1387,
+      "source_end_line": 1456,
+      "source_char_count": 3331,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP19",
+      "episode_order": 19,
+      "source_section": "第十九章 火爆美眉",
+      "chapter_number": 19,
+      "source_start_line": 1457,
+      "source_end_line": 1542,
+      "source_char_count": 2728,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP20",
+      "episode_order": 20,
+      "source_section": "第二十章 小气的自在",
+      "chapter_number": 20,
+      "source_start_line": 1543,
+      "source_end_line": 1606,
+      "source_char_count": 2178,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP21",
+      "episode_order": 21,
+      "source_section": "第二十一章 伴美",
+      "chapter_number": 21,
+      "source_start_line": 1607,
+      "source_end_line": 1690,
+      "source_char_count": 3155,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP22",
+      "episode_order": 22,
+      "source_section": "第二十二章 遇袭",
+      "chapter_number": 22,
+      "source_start_line": 1691,
+      "source_end_line": 1736,
+      "source_char_count": 2093,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP23",
+      "episode_order": 23,
+      "source_section": "第二十三章 调理恶女",
+      "chapter_number": 23,
+      "source_start_line": 1737,
+      "source_end_line": 1794,
+      "source_char_count": 2177,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP24",
+      "episode_order": 24,
+      "source_section": "第二十四章 恶人自有恶人磨",
+      "chapter_number": 24,
+      "source_start_line": 1795,
+      "source_end_line": 1852,
+      "source_char_count": 2035,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP25",
+      "episode_order": 25,
+      "source_section": "第二十五章 拳击友谊赛",
+      "chapter_number": 25,
+      "source_start_line": 1853,
+      "source_end_line": 1972,
+      "source_char_count": 4577,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP26",
+      "episode_order": 26,
+      "source_section": "第二十六章 财帛动人心 美色惑人意",
+      "chapter_number": 26,
+      "source_start_line": 1973,
+      "source_end_line": 2056,
+      "source_char_count": 3062,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP27",
+      "episode_order": 27,
+      "source_section": "第二十七章 美人恩重",
+      "chapter_number": 27,
+      "source_start_line": 2057,
+      "source_end_line": 2120,
+      "source_char_count": 2804,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP28",
+      "episode_order": 28,
+      "source_section": "第二十八章 美女的敲诈",
+      "chapter_number": 28,
+      "source_start_line": 2121,
+      "source_end_line": 2186,
+      "source_char_count": 2740,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP29",
+      "episode_order": 29,
+      "source_section": "第二十九章 大起大落",
+      "chapter_number": 29,
+      "source_start_line": 2187,
+      "source_end_line": 2246,
+      "source_char_count": 2377,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP30",
+      "episode_order": 30,
+      "source_section": "第三十章 好人坏人 穷人富人",
+      "chapter_number": 30,
+      "source_start_line": 2247,
+      "source_end_line": 2330,
+      "source_char_count": 3522,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP31",
+      "episode_order": 31,
+      "source_section": "第三十一章 电梯销魂",
+      "chapter_number": 31,
+      "source_start_line": 2331,
+      "source_end_line": 2380,
+      "source_char_count": 2494,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP32",
+      "episode_order": 32,
+      "source_section": "第三十二章 保镖生涯的不良记录",
+      "chapter_number": 32,
+      "source_start_line": 2381,
+      "source_end_line": 2430,
+      "source_char_count": 2411,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP33",
+      "episode_order": 33,
+      "source_section": "第三十三章 要做自在女朋友的美女",
+      "chapter_number": 33,
+      "source_start_line": 2431,
+      "source_end_line": 2486,
+      "source_char_count": 2040,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP34",
+      "episode_order": 34,
+      "source_section": "第三十四章 步入‘同居’时代",
+      "chapter_number": 34,
+      "source_start_line": 2487,
+      "source_end_line": 2566,
+      "source_char_count": 2858,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP35",
+      "episode_order": 35,
+      "source_section": "第三十五章 来自恶女的算计",
+      "chapter_number": 35,
+      "source_start_line": 2567,
+      "source_end_line": 2650,
+      "source_char_count": 3307,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP36",
+      "episode_order": 36,
+      "source_section": "第三十六章 求助",
+      "chapter_number": 36,
+      "source_start_line": 2651,
+      "source_end_line": 2740,
+      "source_char_count": 2902,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP37",
+      "episode_order": 37,
+      "source_section": "第三十七章 冲突",
+      "chapter_number": 37,
+      "source_start_line": 2741,
+      "source_end_line": 2818,
+      "source_char_count": 2631,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP38",
+      "episode_order": 38,
+      "source_section": "第三十八章 塞翁失马",
+      "chapter_number": 38,
+      "source_start_line": 2819,
+      "source_end_line": 2912,
+      "source_char_count": 3688,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP39",
+      "episode_order": 39,
+      "source_section": "第三十九章 道歉",
+      "chapter_number": 39,
+      "source_start_line": 2913,
+      "source_end_line": 2992,
+      "source_char_count": 2965,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP40",
+      "episode_order": 40,
+      "source_section": "第四十章 老板请客",
+      "chapter_number": 40,
+      "source_start_line": 2993,
+      "source_end_line": 3050,
+      "source_char_count": 3231,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP41",
+      "episode_order": 41,
+      "source_section": "第四十一章 保镖这碗饭也不好吃",
+      "chapter_number": 41,
+      "source_start_line": 3051,
+      "source_end_line": 3114,
+      "source_char_count": 2507,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP42",
+      "episode_order": 42,
+      "source_section": "第四十二章 女同？",
+      "chapter_number": 42,
+      "source_start_line": 3115,
+      "source_end_line": 3174,
+      "source_char_count": 2889,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP43",
+      "episode_order": 43,
+      "source_section": "第四十三章 男儿本色",
+      "chapter_number": 43,
+      "source_start_line": 3175,
+      "source_end_line": 3218,
+      "source_char_count": 2099,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP44",
+      "episode_order": 44,
+      "source_section": "第四十四章 温情脉脉",
+      "chapter_number": 44,
+      "source_start_line": 3219,
+      "source_end_line": 3264,
+      "source_char_count": 1569,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP45",
+      "episode_order": 45,
+      "source_section": "第四十五章 复杂的想法",
+      "chapter_number": 45,
+      "source_start_line": 3265,
+      "source_end_line": 3312,
+      "source_char_count": 2691,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP46",
+      "episode_order": 46,
+      "source_section": "第四十六章 美女与野兽",
+      "chapter_number": 46,
+      "source_start_line": 3313,
+      "source_end_line": 3384,
+      "source_char_count": 2835,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP47",
+      "episode_order": 47,
+      "source_section": "第四十七章 斗",
+      "chapter_number": 47,
+      "source_start_line": 3385,
+      "source_end_line": 3428,
+      "source_char_count": 2181,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP48",
+      "episode_order": 48,
+      "source_section": "第四十八章 制胜",
+      "chapter_number": 48,
+      "source_start_line": 3429,
+      "source_end_line": 3470,
+      "source_char_count": 2184,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP49",
+      "episode_order": 49,
+      "source_section": "第四十九章 处理",
+      "chapter_number": 49,
+      "source_start_line": 3471,
+      "source_end_line": 3526,
+      "source_char_count": 2021,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP50",
+      "episode_order": 50,
+      "source_section": "第五十章 案件",
+      "chapter_number": 50,
+      "source_start_line": 3527,
+      "source_end_line": 3596,
+      "source_char_count": 3160,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP51",
+      "episode_order": 51,
+      "source_section": "第五十一章 冰山一角",
+      "chapter_number": 51,
+      "source_start_line": 3597,
+      "source_end_line": 3636,
+      "source_char_count": 2479,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP52",
+      "episode_order": 52,
+      "source_section": "第五十二章 迷雾重重",
+      "chapter_number": 52,
+      "source_start_line": 3637,
+      "source_end_line": 3692,
+      "source_char_count": 2894,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP53",
+      "episode_order": 53,
+      "source_section": "第五十三章 女生宿舍",
+      "chapter_number": 53,
+      "source_start_line": 3693,
+      "source_end_line": 3762,
+      "source_char_count": 3226,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP54",
+      "episode_order": 54,
+      "source_section": "第五十四章 女生矛盾",
+      "chapter_number": 54,
+      "source_start_line": 3763,
+      "source_end_line": 3806,
+      "source_char_count": 2562,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP55",
+      "episode_order": 55,
+      "source_section": "第五十五章 偶窥隐秘",
+      "chapter_number": 55,
+      "source_start_line": 3807,
+      "source_end_line": 3876,
+      "source_char_count": 3090,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP56",
+      "episode_order": 56,
+      "source_section": "第五十六章 无聊的挑衅",
+      "chapter_number": 56,
+      "source_start_line": 3877,
+      "source_end_line": 3924,
+      "source_char_count": 2164,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP57",
+      "episode_order": 57,
+      "source_section": "第五十七章 牛刀小试 江湖道义",
+      "chapter_number": 57,
+      "source_start_line": 3925,
+      "source_end_line": 4002,
+      "source_char_count": 3335,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP58",
+      "episode_order": 58,
+      "source_section": "第五十八章 关于创业的想法",
+      "chapter_number": 58,
+      "source_start_line": 4003,
+      "source_end_line": 4066,
+      "source_char_count": 2943,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP60",
+      "episode_order": 59,
+      "source_section": "第六十章 针锋相对",
+      "chapter_number": 60,
+      "source_start_line": 4067,
+      "source_end_line": 4138,
+      "source_char_count": 2819,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP61",
+      "episode_order": 60,
+      "source_section": "第六十一章 危机",
+      "chapter_number": 61,
+      "source_start_line": 4139,
+      "source_end_line": 4194,
+      "source_char_count": 2678,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP62",
+      "episode_order": 61,
+      "source_section": "第六十二章 奇怪的老人",
+      "chapter_number": 62,
+      "source_start_line": 4195,
+      "source_end_line": 4262,
+      "source_char_count": 2351,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP63",
+      "episode_order": 62,
+      "source_section": "第六十三章 蹊跷",
+      "chapter_number": 63,
+      "source_start_line": 4263,
+      "source_end_line": 4330,
+      "source_char_count": 2366,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP64",
+      "episode_order": 63,
+      "source_section": "第六十四章 明媚的劝告",
+      "chapter_number": 64,
+      "source_start_line": 4331,
+      "source_end_line": 4394,
+      "source_char_count": 2821,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP65",
+      "episode_order": 64,
+      "source_section": "第六十五章 心有所思",
+      "chapter_number": 65,
+      "source_start_line": 4395,
+      "source_end_line": 4458,
+      "source_char_count": 3140,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP66",
+      "episode_order": 65,
+      "source_section": "第六十六章 虚惊后的突发事件",
+      "chapter_number": 66,
+      "source_start_line": 4459,
+      "source_end_line": 4540,
+      "source_char_count": 3691,
+      "status": "source_present"
+    },
+    {
+      "episode_id": "EP67",
+      "episode_order": 66,
+      "source_section": "第六十七章 无耻",
+      "chapter_number": 67,
+      "source_start_line": 4541,
+      "source_end_line": 4607,
+      "source_char_count": 2807,
+      "status": "source_present"
+    }
+  ]
+}
